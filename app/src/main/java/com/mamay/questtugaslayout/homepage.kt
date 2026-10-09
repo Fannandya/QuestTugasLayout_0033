@@ -67,7 +67,12 @@ fun Homepage(modifier: Modifier){
                         verticalAlignment = Alignment.CenterVertically
 
                     ) {
-
+                        Image(
+                            painter = painterResource(id = R.drawable.umy),
+                            contentDescription = "logo umy",
+                            modifier = Modifier
+                                .padding(end = 10.dp)
+                        )
                     }
                 }
 
