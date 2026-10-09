@@ -39,6 +39,9 @@ fun Homepage(modifier: Modifier){
                     fontWeight = FontWeight.Bold,
                     fontSize = 20.sp
                 )
+                Spacer(
+                    modifier = Modifier.padding(10.dp)
+                )
 
             }
         }
