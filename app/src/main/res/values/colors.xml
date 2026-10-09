@@ -6,5 +6,16 @@
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <color name="white">#573D10</color>
+    <color name="mewrah">#FF660000</color>
+    <color name="merah">#D9361E</color>
+    <color name="ijo">#4F5B2A</color>
+    <color name="krem">#F5EBDD</color>
+    <color name="ijomuda">#76C457</color>
+    <color name="ping">#FF788D</color>
+    <color name="biruabu">#66A3BF</color>
+    <color name="sage">#24B1B1</color>
+    <color name="coklatmuda">#E98B50</color>
+    <color name="pistacio">#838921</color>
+    <color name="navy">#0A2947</color>
 </resources>
