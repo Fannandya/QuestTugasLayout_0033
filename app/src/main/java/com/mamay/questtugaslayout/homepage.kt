@@ -58,7 +58,11 @@ fun Homepage(modifier: Modifier){
                     horizontalArrangement = Arrangement.SpaceEvenly,
                     verticalAlignment = Alignment.CenterVertically
 
-                ) {}
+                ) {
+                    Image(
+                        painter =
+                    )
+                }
             }
         }
     }
