@@ -95,6 +95,15 @@ fun Homepage(modifier: Modifier){
                                 fontSize = 20.sp
                             )
                         }
+                        Image(
+                            painter = painterResource(id = R.drawable.umy),
+                            contentDescription = "logo umy",
+                            modifier = Modifier
+                                .padding(start = 10.dp)
+                        )
+
+
+
                     }
 
                     }
