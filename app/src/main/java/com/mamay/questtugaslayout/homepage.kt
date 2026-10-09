@@ -80,6 +80,14 @@ fun Homepage(modifier: Modifier){
                             fontWeight = FontWeight.Bold,
                             fontSize = 20.sp
                         )
+                        Text(
+                            text = stringResource(id = R.string.nim1),
+                            modifier = Modifier,
+                            fontFamily = FontFamily.Monospace,
+                            fontWeight = FontWeight.Bold,
+                            fontSize = 20.sp
+                        )
+                    }
 
                     }
                 }
