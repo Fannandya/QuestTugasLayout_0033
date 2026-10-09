@@ -50,7 +50,16 @@ fun Homepage(modifier: Modifier){
                     letterSpacing = 0.1.sp
                 )
             }
+            Column(){
+                Row(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(top = 200.dp),
+                    horizontalArrangement = Arrangement.SpaceEvenly,
+                    verticalAlignment = Alignment.CenterVertically
 
+                ) {}
+            }
         }
     }
 }
