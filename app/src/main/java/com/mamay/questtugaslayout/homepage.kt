@@ -42,8 +42,15 @@ fun Homepage(modifier: Modifier){
                 Spacer(
                     modifier = Modifier.padding(10.dp)
                 )
-
+                Text(
+                    text = stringResource(id = R.string.univ),
+                    modifier = Modifier,
+                    fontFamily = FontFamily.Monospace,
+                    fontSize = 20.sp,
+                    letterSpacing = 0.1.sp
+                )
             }
+
         }
     }
 }
