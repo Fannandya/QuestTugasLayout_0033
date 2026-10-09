@@ -8,6 +8,7 @@ import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.material3.Card
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -56,7 +57,7 @@ fun Homepage(modifier: Modifier){
                 Card(
                     modifier = Modifier
                         .fillMaxWidth()
-                        .padding(top = 150.dp)
+                        .padding(20.dp),
                 ) {
                     Row(
                         modifier = Modifier
