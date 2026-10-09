@@ -20,8 +20,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             QuestTugasLayoutTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
+                    Homepage(
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
