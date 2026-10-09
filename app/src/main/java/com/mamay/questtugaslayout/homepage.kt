@@ -73,6 +73,14 @@ fun Homepage(modifier: Modifier){
                             modifier = Modifier
                                 .padding(end = 10.dp)
                         )
+                        Text(
+                            text = stringResource(id = R.string.nama1),
+                            modifier = Modifier,
+                            fontFamily = FontFamily.Monospace,
+                            fontWeight = FontWeight.Bold,
+                            fontSize = 20.sp
+                        )
+
                     }
                 }
 
